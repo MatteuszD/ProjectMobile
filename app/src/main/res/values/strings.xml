@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WheelCatalog</string>
+    <string name="HOME">Home</string>
+    <string name="USER">Client</string>
+    <string name="PHOTO">Photo</string>
+    <string name="NameLogo">Wheel</string>
+    <string name="NrUlicy">Numer Ulicy</string>
+    <string name="Ulica">Ulica</string>
+    <string name="Imie">Imię</string>
+    <string name="Nazwisko">Nazwisko</string>
+    <string name="Email">E-mail</string>
+    <string name="NrTel">Nr Telefonu</string>
+    <string name="Kod">Kod Pocztowy</string>
+    <string name="Miasto">Miasto</string>
+    <string name="Opis">Opis</string>
+    <string name="Szerokosc">Szerokość</string>
+    <string name="ET">Osadzenie (ET)</string>
+    <string name="Rozmiar">Rozmiar</string>
+    <string name="Cena">Cena</string>
+    <string name="Nazwa">Nazwa</string>
+    <string name="Rozstaw">Rozstaw</string>
+    <string name="Save">Zapisz</string>
+    <string name="Wrong">.</string>
+    <string name="nip">NIP</string>
+
+</resources>

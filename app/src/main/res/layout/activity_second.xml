@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3CECE"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        tools:listitem="@layout/client_row" />
+
+    <LinearLayout
+        android:layout_weight="30"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <EditText
+            android:background="@color/cardview_dark_background"
+            android:id="@+id/imieInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="@string/Imie"/>
+        <EditText
+            android:background="@color/cardview_dark_background"
+            android:id="@+id/nazwiskoInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="@string/Nazwisko"/>
+
+        <EditText
+            android:id="@+id/nipInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/cardview_dark_background"
+            android:gravity="center"
+            android:hint="@string/nip"
+            android:inputType="number"
+            android:maxLength="10" />
+    </LinearLayout>
+    <Button
+        android:text="@string/Save"
+        android:id="@+id/submitData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30"/>
+
+<LinearLayout
+        android:layout_weight="30"
+        android:id="@+id/SecondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/HOME_Button_nd"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:insetLeft="0dp"
+        android:insetRight="0dp"
+        android:text="@string/HOME"
+        android:textColor="#FFFEFE"
+        android:textSize="18sp"
+        app:backgroundTint="#8A8484"
+        app:icon="@drawable/icon_home2"
+        app:iconSize="40dp"
+        app:iconTint="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/CLIENT_Button_nd"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:insetLeft="0dp"
+        android:insetRight="0dp"
+        android:text="@string/USER"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:backgroundTint="#8A8484"
+        app:icon="@drawable/icon_user2"
+        app:iconSize="40dp"
+        app:iconTint="#FF0000" />
+
+    <Button
+        android:id="@+id/PHOTO_Button_nd"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:insetLeft="0dp"
+        android:insetRight="0dp"
+        android:text="@string/PHOTO"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#8A8484"
+        app:icon="@drawable/icon_photo2"
+        app:iconSize="40dp"
+        app:iconTint="#FFFFFF" />
+</LinearLayout>
+</LinearLayout>
+
